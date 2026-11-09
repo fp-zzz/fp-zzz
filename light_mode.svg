@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530" xml:space="preserve">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; font-size: 16px; fill: #111111; white-space: pre; }
+    .card { fill: #ffffff; stroke: #e5e5e5; }
+    .k { fill: #525252; }
+    .h { fill: #6d28d9; font-weight: bold; }
+    .logo { fill: #111111; }
+    .d { fill: #c4c4c4; }
+    .add { fill: #6d28d9; }
+    .del { fill: #8a8a8a; }
+    .shadow { fill: none; stroke: #a78bfa; stroke-width: 10; }
+    .gap { fill: none; stroke: #ffffff; stroke-width: 6; }
+    .cursor { animation: blink 1.1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <defs>
+    <path id="fp" fill-rule="evenodd" d="M0 0H140V40H40V80H100V120H40V200H0Z M160 0H280V40H300V80H280V120H200V200H160Z M200 40H260V80H200Z"/>
+  </defs>
+
+  <rect class="card" x="0.5" y="0.5" width="984" height="529" rx="14"/>
+
+  <g transform="translate(35 130)">
+    <use href="#fp" x="10" y="20" class="shadow"/>
+    <use href="#fp" x="10" y="20" class="gap"/>
+    <use href="#fp" class="logo"/>
+  </g>
+  <text x="195" y="400" text-anchor="middle"><tspan class="k">fp-zzz ~ $</tspan> <tspan class="cursor">█</tspan></text>
+
+  <text x="390" y="30"><tspan class="h">francisco@pruneda</tspan> <tspan class="d">──────────────────────────────────────</tspan></text>
+  <text x="390" y="50"><tspan class="d">.</tspan> <tspan class="k">OS</tspan>: <tspan class="d">........................</tspan> CachyOS Linux, KDE Plasma</text>
+  <text x="390" y="70"><tspan class="d">.</tspan> <tspan class="k">Uptime</tspan>: <tspan class="d">...............................</tspan> since May 2025</text>
+  <text x="390" y="90"><tspan class="d">.</tspan> <tspan class="k">Host</tspan>: <tspan class="d">..........................</tspan> Texas Tech University</text>
+  <text x="390" y="110"><tspan class="d">.</tspan> <tspan class="k">Kernel</tspan>: <tspan class="d">.......................</tspan> Electrical Engineering</text>
+  <text x="390" y="130"><tspan class="d">.</tspan> <tspan class="k">IDE</tspan>: <tspan class="d">.........................................</tspan> VS Code</text>
+
+  <text x="390" y="170"><tspan class="d">.</tspan> <tspan class="k">Languages.Programming</tspan>: <tspan class="d">.......</tspan> JavaScript, Python, C++</text>
+  <text x="390" y="190"><tspan class="d">.</tspan> <tspan class="k">Languages.Web</tspan>: <tspan class="d">.............................</tspan> HTML, CSS</text>
+  <text x="390" y="210"><tspan class="d">.</tspan> <tspan class="k">Languages.Game</tspan>: <tspan class="d">.......................</tspan> GDScript, Luau</text>
+
+  <text x="390" y="250"><tspan class="d">.</tspan> <tspan class="k">Hobbies.Software</tspan>: <tspan class="d">.................</tspan> Game dev, Web apps</text>
+  <text x="390" y="270"><tspan class="d">.</tspan> <tspan class="k">Hobbies.Hardware</tspan>: <tspan class="d">..</tspan> PCB design, Robotics, 3D printing</text>
+
+  <text x="390" y="310"><tspan class="d">─</tspan> <tspan class="h">Contact</tspan> <tspan class="d">──────────────────────────────────────────────</tspan></text>
+  <text x="390" y="330"><tspan class="d">.</tspan> <tspan class="k">Website</tspan>: <tspan class="d">.....................</tspan> fp-zzz.github.io/resume</text>
+  <text x="390" y="350"><tspan class="d">.</tspan> <tspan class="k">GitHub</tspan>: <tspan class="d">............................</tspan> github.com/fp-zzz</text>
+  <text x="390" y="370"><tspan class="d">.</tspan> <tspan class="k">Location</tspan>: <tspan class="d">......................................</tspan> Texas</text>
+
+  <text x="390" y="410"><tspan class="d">─</tspan> <tspan class="h">GitHub Stats</tspan> <tspan class="d">─────────────────────────────────────────</tspan></text>
+  <text x="390" y="430"><tspan class="d">.</tspan> <tspan class="k">Repos</tspan>: <tspan class="d" id="repos_dots">.....</tspan> <tspan id="repos">23</tspan> {<tspan class="k">Contributed</tspan>: <tspan id="contributed">29</tspan>} <tspan class="d">|</tspan> <tspan class="k">Stars</tspan>: <tspan class="d" id="stars_dots">.........</tspan> <tspan id="stars">2</tspan></text>
+  <text x="390" y="450"><tspan class="d">.</tspan> <tspan class="k">Commits</tspan>: <tspan class="d" id="commits_dots">....................</tspan> <tspan id="commits">282</tspan> <tspan class="d">|</tspan> <tspan class="k">Followers</tspan>: <tspan class="d" id="followers_dots">.....</tspan> <tspan id="followers">6</tspan></text>
+  <text x="390" y="470"><tspan class="d">.</tspan> <tspan class="k">Lines of Code</tspan>: <tspan class="d" id="loc_dots">........</tspan> <tspan id="loc">194,179</tspan> ( <tspan class="add" id="added">199,108++</tspan>, <tspan class="del" id="deleted">4,929--</tspan> )</text>
+
+  <rect x="390" y="497" width="30" height="16" fill="#262626"/>
+  <rect x="420" y="497" width="30" height="16" fill="#525252"/>
+  <rect x="450" y="497" width="30" height="16" fill="#a3a3a3"/>
+  <rect x="480" y="497" width="30" height="16" fill="#e5e5e5"/>
+  <rect x="510" y="497" width="30" height="16" fill="#c4b5fd"/>
+  <rect x="540" y="497" width="30" height="16" fill="#a78bfa"/>
+  <rect x="570" y="497" width="30" height="16" fill="#8b5cf6"/>
+  <rect x="600" y="497" width="30" height="16" fill="#6d28d9"/>
+</svg>
