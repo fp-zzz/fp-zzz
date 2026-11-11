@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530" xml:space="preserve">
   <style>
-    text { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; font-size: 16px; fill: #1b2a42; white-space: pre; }
-    .card { fill: #fcfbf7; stroke: #e2dccb; }
-    .k { fill: #2d6cb5; }
-    .h { fill: #1b3566; font-weight: bold; }
-    .logo { fill: #e3b21f; }
-    .d { fill: #b3bccb; }
-    .add { fill: #2f8a4c; }
-    .del { fill: #c0533f; }
-    .shadow { fill: none; stroke: #a9c3e6; stroke-width: 10; }
-    .gap { fill: none; stroke: #fcfbf7; stroke-width: 6; }
+    text { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; font-size: 16px; fill: #2b211c; white-space: pre; }
+    .card { fill: #ebe4d7; stroke: #d3c8b6; }
+    .k { fill: #7a5e50; }
+    .h { fill: #b8322a; font-weight: bold; }
+    .logo { fill: #c4352b; }
+    .d { fill: #c2b6a4; }
+    .add { fill: #b8322a; }
+    .del { fill: #8c7f70; }
+    .shadow { fill: none; stroke: #e0a196; stroke-width: 10; }
+    .gap { fill: none; stroke: #ebe4d7; stroke-width: 6; }
     .cursor { animation: blink 1.1s step-end infinite; }
     @keyframes blink { 50% { opacity: 0; } }
   </style>
@@ -51,12 +51,12 @@
   <text x="390" y="450"><tspan class="d">.</tspan> <tspan class="k">Commits</tspan>: <tspan class="d" id="commits_dots">....................</tspan> <tspan id="commits">282</tspan> <tspan class="d">|</tspan> <tspan class="k">Followers</tspan>: <tspan class="d" id="followers_dots">.....</tspan> <tspan id="followers">6</tspan></text>
   <text x="390" y="470"><tspan class="d">.</tspan> <tspan class="k">Lines of Code</tspan>: <tspan class="d" id="loc_dots">........</tspan> <tspan id="loc">194,179</tspan> ( <tspan class="add" id="added">199,108++</tspan>, <tspan class="del" id="deleted">4,929--</tspan> )</text>
 
-  <rect x="390" y="497" width="30" height="16" fill="#1b3566"/>
-  <rect x="420" y="497" width="30" height="16" fill="#2a5294"/>
-  <rect x="450" y="497" width="30" height="16" fill="#4f86c6"/>
-  <rect x="480" y="497" width="30" height="16" fill="#8ec1ee"/>
-  <rect x="510" y="497" width="30" height="16" fill="#e9eef4"/>
-  <rect x="540" y="497" width="30" height="16" fill="#f5dc8f"/>
-  <rect x="570" y="497" width="30" height="16" fill="#e8c04a"/>
-  <rect x="600" y="497" width="30" height="16" fill="#c99a1c"/>
+  <rect x="390" y="497" width="30" height="16" fill="#4a3e35"/>
+  <rect x="420" y="497" width="30" height="16" fill="#7a5e50"/>
+  <rect x="450" y="497" width="30" height="16" fill="#b9a690"/>
+  <rect x="480" y="497" width="30" height="16" fill="#e1d9cc"/>
+  <rect x="510" y="497" width="30" height="16" fill="#f0b7ae"/>
+  <rect x="540" y="497" width="30" height="16" fill="#e2574a"/>
+  <rect x="570" y="497" width="30" height="16" fill="#c4352b"/>
+  <rect x="600" y="497" width="30" height="16" fill="#8e2219"/>
 </svg>
