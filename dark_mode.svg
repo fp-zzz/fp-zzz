@@ -97,9 +97,9 @@
   <text x="390" y="110"><tspan class="d">.</tspan> <tspan class="k">Kernel</tspan>: <tspan class="d">.......................</tspan> Electrical Engineering</text>
   <text x="390" y="130"><tspan class="d">.</tspan> <tspan class="k">IDE</tspan>: <tspan class="d">.........................................</tspan> VS Code</text>
 
-  <text x="390" y="170"><tspan class="d">.</tspan> <tspan class="k">Languages.Programming</tspan>: <tspan class="d">.......</tspan> JavaScript, Python, C++</text>
-  <text x="390" y="190"><tspan class="d">.</tspan> <tspan class="k">Languages.Web</tspan>: <tspan class="d">.............................</tspan> HTML, CSS</text>
-  <text x="390" y="210"><tspan class="d">.</tspan> <tspan class="k">Languages.Game</tspan>: <tspan class="d">.......................</tspan> GDScript, Luau</text>
+  <text x="390" y="170"><tspan class="d">.</tspan> <tspan class="k">Languages.Programming</tspan>: <tspan class="d">.............</tspan> Java, Python, C++</text>
+  <text x="390" y="190"><tspan class="d">.</tspan> <tspan class="k">Languages.Web</tspan>: <tspan class="d">.................</tspan> HTML, CSS, JavaScript</text>
+  <text x="390" y="210"><tspan class="d">.</tspan> <tspan class="k">Languages.Game</tspan>: <tspan class="d">...................</tspan> GDScript, Luau, C#</text>
 
   <text x="390" y="250"><tspan class="d">.</tspan> <tspan class="k">Hobbies.Software</tspan>: <tspan class="d">.................</tspan> Game dev, Web apps</text>
   <text x="390" y="270"><tspan class="d">.</tspan> <tspan class="k">Hobbies.Hardware</tspan>: <tspan class="d">..</tspan> PCB design, Robotics, 3D printing</text>
