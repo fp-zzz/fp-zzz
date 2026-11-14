@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530" xml:space="preserve">
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="550" viewBox="0 0 985 550" xml:space="preserve">
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace; font-size: 16px; fill: #ededed; white-space: pre; }
     .card { fill: none; stroke: #3d3d3d; }
@@ -13,7 +13,7 @@
     @keyframes blink { 50% { opacity: 0; } }
   </style>
 
-  <rect class="card" x="0.5" y="0.5" width="984" height="529" rx="14"/>
+  <rect class="card" x="0.5" y="0.5" width="984" height="549" rx="14"/>
 
   <g class="art" transform="translate(22 30)">
     <text y="0">                                              .</text>
@@ -72,21 +72,22 @@
   <text x="390" y="270"><tspan class="d">.</tspan> <tspan class="k">Hobbies.Hardware</tspan>: <tspan class="d">..</tspan> PCB design, Robotics, 3D printing</text>
 
   <text x="390" y="310"><tspan class="d">─</tspan> <tspan class="h">Contact</tspan> <tspan class="d">──────────────────────────────────────────────</tspan></text>
-  <text x="390" y="330"><tspan class="d">.</tspan> <tspan class="k">Website</tspan>: <tspan class="d">.....................</tspan> fp-zzz.github.io/resume</text>
-  <text x="390" y="350"><tspan class="d">.</tspan> <tspan class="k">GitHub</tspan>: <tspan class="d">............................</tspan> github.com/fp-zzz</text>
-  <text x="390" y="370"><tspan class="d">.</tspan> <tspan class="k">Location</tspan>: <tspan class="d">......................................</tspan> Texas</text>
+  <text x="390" y="330"><tspan class="d">.</tspan> <tspan class="k">Email</tspan>: <tspan class="d">....................</tspan> franciscopruneda@proton.me</text>
+  <text x="390" y="350"><tspan class="d">.</tspan> <tspan class="k">Website</tspan>: <tspan class="d">.....................</tspan> fp-zzz.github.io/resume</text>
+  <text x="390" y="370"><tspan class="d">.</tspan> <tspan class="k">GitHub</tspan>: <tspan class="d">............................</tspan> github.com/fp-zzz</text>
+  <text x="390" y="390"><tspan class="d">.</tspan> <tspan class="k">Location</tspan>: <tspan class="d">......................................</tspan> Texas</text>
 
-  <text x="390" y="410"><tspan class="d">─</tspan> <tspan class="h">GitHub Stats</tspan> <tspan class="d">─────────────────────────────────────────</tspan></text>
-  <text x="390" y="430"><tspan class="d">.</tspan> <tspan class="k">Repos</tspan>: <tspan class="d" id="repos_dots">.....</tspan> <tspan id="repos">23</tspan> {<tspan class="k">Contributed</tspan>: <tspan id="contributed">24</tspan>} <tspan class="d">|</tspan> <tspan class="k">Stars</tspan>: <tspan class="d" id="stars_dots">.........</tspan> <tspan id="stars">2</tspan></text>
-  <text x="390" y="450"><tspan class="d">.</tspan> <tspan class="k">Commits</tspan>: <tspan class="d" id="commits_dots">....................</tspan> <tspan id="commits">416</tspan> <tspan class="d">|</tspan> <tspan class="k">Followers</tspan>: <tspan class="d" id="followers_dots">.....</tspan> <tspan id="followers">6</tspan></text>
-  <text x="390" y="470"><tspan class="d">.</tspan> <tspan class="k">Lines of Code</tspan>: <tspan class="d" id="loc_dots">........</tspan> <tspan id="loc">196,090</tspan> ( <tspan class="add" id="added">201,937++</tspan>, <tspan class="del" id="deleted">5,847--</tspan> )</text>
+  <text x="390" y="430"><tspan class="d">─</tspan> <tspan class="h">GitHub Stats</tspan> <tspan class="d">─────────────────────────────────────────</tspan></text>
+  <text x="390" y="450"><tspan class="d">.</tspan> <tspan class="k">Repos</tspan>: <tspan class="d" id="repos_dots">.....</tspan> <tspan id="repos">23</tspan> {<tspan class="k">Contributed</tspan>: <tspan id="contributed">24</tspan>} <tspan class="d">|</tspan> <tspan class="k">Stars</tspan>: <tspan class="d" id="stars_dots">.........</tspan> <tspan id="stars">2</tspan></text>
+  <text x="390" y="470"><tspan class="d">.</tspan> <tspan class="k">Commits</tspan>: <tspan class="d" id="commits_dots">....................</tspan> <tspan id="commits">416</tspan> <tspan class="d">|</tspan> <tspan class="k">Followers</tspan>: <tspan class="d" id="followers_dots">.....</tspan> <tspan id="followers">6</tspan></text>
+  <text x="390" y="490"><tspan class="d">.</tspan> <tspan class="k">Lines of Code</tspan>: <tspan class="d" id="loc_dots">........</tspan> <tspan id="loc">196,090</tspan> ( <tspan class="add" id="added">201,937++</tspan>, <tspan class="del" id="deleted">5,847--</tspan> )</text>
 
-  <rect class="strip" x="390" y="497" width="30" height="16" fill-opacity="0.125"/>
-  <rect class="strip" x="420" y="497" width="30" height="16" fill-opacity="0.25"/>
-  <rect class="strip" x="450" y="497" width="30" height="16" fill-opacity="0.375"/>
-  <rect class="strip" x="480" y="497" width="30" height="16" fill-opacity="0.5"/>
-  <rect class="strip" x="510" y="497" width="30" height="16" fill-opacity="0.625"/>
-  <rect class="strip" x="540" y="497" width="30" height="16" fill-opacity="0.75"/>
-  <rect class="strip" x="570" y="497" width="30" height="16" fill-opacity="0.875"/>
-  <rect class="strip" x="600" y="497" width="30" height="16" fill-opacity="1"/>
+  <rect class="strip" x="390" y="517" width="30" height="16" fill-opacity="0.125"/>
+  <rect class="strip" x="420" y="517" width="30" height="16" fill-opacity="0.25"/>
+  <rect class="strip" x="450" y="517" width="30" height="16" fill-opacity="0.375"/>
+  <rect class="strip" x="480" y="517" width="30" height="16" fill-opacity="0.5"/>
+  <rect class="strip" x="510" y="517" width="30" height="16" fill-opacity="0.625"/>
+  <rect class="strip" x="540" y="517" width="30" height="16" fill-opacity="0.75"/>
+  <rect class="strip" x="570" y="517" width="30" height="16" fill-opacity="0.875"/>
+  <rect class="strip" x="600" y="517" width="30" height="16" fill-opacity="1"/>
 </svg>
