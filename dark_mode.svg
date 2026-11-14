@@ -77,9 +77,9 @@
   <text x="390" y="370"><tspan class="d">.</tspan> <tspan class="k">Location</tspan>: <tspan class="d">......................................</tspan> Texas</text>
 
   <text x="390" y="410"><tspan class="d">─</tspan> <tspan class="h">GitHub Stats</tspan> <tspan class="d">─────────────────────────────────────────</tspan></text>
-  <text x="390" y="430"><tspan class="d">.</tspan> <tspan class="k">Repos</tspan>: <tspan class="d" id="repos_dots">.....</tspan> <tspan id="repos">23</tspan> {<tspan class="k">Contributed</tspan>: <tspan id="contributed">29</tspan>} <tspan class="d">|</tspan> <tspan class="k">Stars</tspan>: <tspan class="d" id="stars_dots">.........</tspan> <tspan id="stars">2</tspan></text>
-  <text x="390" y="450"><tspan class="d">.</tspan> <tspan class="k">Commits</tspan>: <tspan class="d" id="commits_dots">....................</tspan> <tspan id="commits">282</tspan> <tspan class="d">|</tspan> <tspan class="k">Followers</tspan>: <tspan class="d" id="followers_dots">.....</tspan> <tspan id="followers">6</tspan></text>
-  <text x="390" y="470"><tspan class="d">.</tspan> <tspan class="k">Lines of Code</tspan>: <tspan class="d" id="loc_dots">........</tspan> <tspan id="loc">194,179</tspan> ( <tspan class="add" id="added">199,108++</tspan>, <tspan class="del" id="deleted">4,929--</tspan> )</text>
+  <text x="390" y="430"><tspan class="d">.</tspan> <tspan class="k">Repos</tspan>: <tspan class="d" id="repos_dots">.....</tspan> <tspan id="repos">23</tspan> {<tspan class="k">Contributed</tspan>: <tspan id="contributed">24</tspan>} <tspan class="d">|</tspan> <tspan class="k">Stars</tspan>: <tspan class="d" id="stars_dots">.........</tspan> <tspan id="stars">2</tspan></text>
+  <text x="390" y="450"><tspan class="d">.</tspan> <tspan class="k">Commits</tspan>: <tspan class="d" id="commits_dots">....................</tspan> <tspan id="commits">416</tspan> <tspan class="d">|</tspan> <tspan class="k">Followers</tspan>: <tspan class="d" id="followers_dots">.....</tspan> <tspan id="followers">6</tspan></text>
+  <text x="390" y="470"><tspan class="d">.</tspan> <tspan class="k">Lines of Code</tspan>: <tspan class="d" id="loc_dots">........</tspan> <tspan id="loc">196,090</tspan> ( <tspan class="add" id="added">201,937++</tspan>, <tspan class="del" id="deleted">5,847--</tspan> )</text>
 
   <rect class="strip" x="390" y="497" width="30" height="16" fill-opacity="0.125"/>
   <rect class="strip" x="420" y="497" width="30" height="16" fill-opacity="0.25"/>
