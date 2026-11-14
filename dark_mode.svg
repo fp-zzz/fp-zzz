@@ -9,6 +9,11 @@
     .add { fill: #ffffff; }
     .del { fill: #8a8a8a; }
     .strip { fill: #ffffff; }
+    .art .star text, .art .tw { text-anchor: middle; }
+    .star { animation: pulse 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .tw { animation: twinkle 3s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: 0.6; transform: scale(0.88); } }
+    @keyframes twinkle { 0%, 100% { opacity: 0.2; } 50% { opacity: 1; } }
     .cursor { animation: blink 1.1s step-end infinite; }
     @keyframes blink { 50% { opacity: 0; } }
   </style>
@@ -16,14 +21,7 @@
   <rect class="card" x="0.5" y="0.5" width="984" height="549" rx="14"/>
 
   <g class="art" transform="translate(22 30)">
-    <text y="0">                                              .</text>
-    <text y="10">                                              :</text>
-    <text y="20">                                           .-=@=-.</text>
-    <text y="30">                                              :</text>
-    <text y="40">                                              '</text>
-    <text y="50">                                      .          .</text>
-    <text y="60">                                    -=#=-      -=#=-</text>
-    <text y="70">                       :   ..         '          '</text>
+    <text y="70">                       :   ..</text>
     <text y="80">                     .+-   ::</text>
     <text y="90">                  -  .=-.     -+=:::                   .-*</text>
     <text y="100">                 --  .+-:-= -==- :== :           :=+=*+**=</text>
@@ -46,14 +44,49 @@
     <text y="270">-*@@%*+*+%#%%#*#===#*#%@@%@%@%%##***-</text>
     <text y="280">=++-.:=- .  -      .   .==:=:----</text>
     <text y="290">-.:  :</text>
-    <text y="300">                     .</text>
-    <text y="310">                    -+-</text>
-    <text y="320">                     '</text>
-    <text y="330">          .</text>
-    <text y="340">          :</text>
-    <text y="350">       .-=@=-.</text>
-    <text y="360">          :</text>
-    <text y="370">          '</text>
+    <g class="star" style="animation-delay: 0s">
+      <text x="279" y="0">.</text>
+      <text x="279" y="10">:</text>
+      <text x="279" y="20">.-=@=-.</text>
+      <text x="279" y="30">:</text>
+      <text x="279" y="40">'</text>
+    </g>
+    <g class="star" style="animation-delay: -1.3s">
+      <text x="231" y="50">.</text>
+      <text x="231" y="60">-=#=-</text>
+      <text x="231" y="70">'</text>
+    </g>
+    <g class="star" style="animation-delay: -2.6s">
+      <text x="297" y="50">.</text>
+      <text x="297" y="60">-=#=-</text>
+      <text x="297" y="70">'</text>
+    </g>
+    <g class="star" style="animation-delay: -0.7s">
+      <text x="129" y="300">.</text>
+      <text x="129" y="310">-+-</text>
+      <text x="129" y="320">'</text>
+    </g>
+    <g class="star" style="animation-delay: -2s">
+      <text x="63" y="330">.</text>
+      <text x="63" y="340">:</text>
+      <text x="63" y="350">.-=@=-.</text>
+      <text x="63" y="360">:</text>
+      <text x="63" y="370">'</text>
+    </g>
+    <text class="tw" x="27" y="20" style="animation-delay: 0s">+</text>
+    <text class="tw" x="111" y="10" style="animation-delay: -0.4s">.</text>
+    <text class="tw" x="183" y="40" style="animation-delay: -0.7s">*</text>
+    <text class="tw" x="51" y="90" style="animation-delay: -1.1s">.</text>
+    <text class="tw" x="81" y="60" style="animation-delay: -1.5s">+</text>
+    <text class="tw" x="333" y="20" style="animation-delay: -1.9s">.</text>
+    <text class="tw" x="339" y="150" style="animation-delay: -2.2s">+</text>
+    <text class="tw" x="303" y="220" style="animation-delay: -2.6s">.</text>
+    <text class="tw" x="267" y="270" style="animation-delay: -3s">*</text>
+    <text class="tw" x="315" y="310" style="animation-delay: -0.3s">.</text>
+    <text class="tw" x="219" y="340" style="animation-delay: -0.7s">+</text>
+    <text class="tw" x="159" y="370" style="animation-delay: -1.1s">.</text>
+    <text class="tw" x="21" y="330" style="animation-delay: -1.4s">.</text>
+    <text class="tw" x="291" y="360" style="animation-delay: -1.8s">+</text>
   </g>
   <text x="195" y="455" text-anchor="middle"><tspan class="k">fp-zzz ~ $</tspan> <tspan class="cursor">█</tspan></text>
 
