@@ -9,6 +9,9 @@
     .add { fill: #000000; }
     .del { fill: #8a8a8a; }
     .strip { fill: #111111; }
+    .planet text { fill: url(#sweep); }
+    .base { stop-color: #3a3a3a; }
+    .glow { stop-color: #000000; }
     .art .star text, .art .tw { text-anchor: middle; }
     .star { animation: pulse 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
     .tw { animation: twinkle 3s ease-in-out infinite; }
@@ -18,32 +21,43 @@
     @keyframes blink { 50% { opacity: 0; } }
   </style>
 
+  <defs>
+    <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="0" y1="290" x2="350" y2="70">
+      <stop class="base" offset="0.4"/>
+      <stop class="glow" offset="0.5"/>
+      <stop class="base" offset="0.6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-420 260; 420 -260; 420 -260" keyTimes="0; 0.55; 1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
   <rect class="card" x="0.5" y="0.5" width="984" height="549" rx="14"/>
 
   <g class="art" transform="translate(22 30)">
-    <text y="70">                       :   ..</text>
-    <text y="80">                     .+-   ::</text>
-    <text y="90">                  -  .=-.     -+=:::                   .-*</text>
-    <text y="100">                 --  .+-:-= -==- :== :           :=+=*+**=</text>
-    <text y="110">                 ...::-.--+==+=:: ===+-=.   ...:-####@*-.</text>
-    <text y="120">             -:  #+++*@@@@###@@%##**=++=*+*-*=%%%@@#%:</text>
-    <text y="130">             :. +-:*%%%*- :--: -=**##*++++**%@%*##*#+</text>
-    <text y="140">              .=+=#%*-.==-.::---:.=+##*##*###*##@*+-</text>
-    <text y="150">           = --+*#%=::=         ::  :-+###%###%#++:</text>
-    <text y="160">           -==**@@= --           :=*+%%%%%@@%##=:</text>
-    <text y="170">            ---+@*.=.            :=###=+=*#*++.</text>
-    <text y="180">          =- :=%@:+           -*+###:+.==+##=.</text>
-    <text y="190">           ==:=@@ =-.     ::=@@%##+=-* ++@@-</text>
-    <text y="200">           -+-=@@+ +: :-=*%@@@%.-    * -%@@-</text>
-    <text y="210">         : :+=+#*: +**%%@@#+=+       = +@#+</text>
-    <text y="220">       .:==+=**===+#%@%*==:..     :-  ++%+.</text>
-    <text y="230">       :-*@%%+**@%#*=:=+=       -:-. *@@%+</text>
-    <text y="240">     -+#+@%++#++=      -=++=== =- .=%@#=</text>
-    <text y="250">  ::-*#%%%-+   :=-===*- ..    --+*%#@-</text>
-    <text y="260">  -##@@*++-:--#%@**#**%+== :+#*+*##*=</text>
-    <text y="270">-*@@%*+*+%#%%#*#===#*#%@@%@%@%%##***-</text>
-    <text y="280">=++-.:=- .  -      .   .==:=:----</text>
-    <text y="290">-.:  :</text>
+    <g class="planet">
+      <text y="70">                       :   ..</text>
+      <text y="80">                     .+-   ::</text>
+      <text y="90">                  -  .=-.     -+=:::                   .-*</text>
+      <text y="100">                 --  .+-:-= -==- :== :           :=+=*+**=</text>
+      <text y="110">                 ...::-.--+==+=:: ===+-=.   ...:-####@*-.</text>
+      <text y="120">             -:  #+++*@@@@###@@%##**=++=*+*-*=%%%@@#%:</text>
+      <text y="130">             :. +-:*%%%*- :--: -=**##*++++**%@%*##*#+</text>
+      <text y="140">              .=+=#%*-.==-.::---:.=+##*##*###*##@*+-</text>
+      <text y="150">           = --+*#%=::=         ::  :-+###%###%#++:</text>
+      <text y="160">           -==**@@= --           :=*+%%%%%@@%##=:</text>
+      <text y="170">            ---+@*.=.            :=###=+=*#*++.</text>
+      <text y="180">          =- :=%@:+           -*+###:+.==+##=.</text>
+      <text y="190">           ==:=@@ =-.     ::=@@%##+=-* ++@@-</text>
+      <text y="200">           -+-=@@+ +: :-=*%@@@%.-    * -%@@-</text>
+      <text y="210">         : :+=+#*: +**%%@@#+=+       = +@#+</text>
+      <text y="220">       .:==+=**===+#%@%*==:..     :-  ++%+.</text>
+      <text y="230">       :-*@%%+**@%#*=:=+=       -:-. *@@%+</text>
+      <text y="240">     -+#+@%++#++=      -=++=== =- .=%@#=</text>
+      <text y="250">  ::-*#%%%-+   :=-===*- ..    --+*%#@-</text>
+      <text y="260">  -##@@*++-:--#%@**#**%+== :+#*+*##*=</text>
+      <text y="270">-*@@%*+*+%#%%#*#===#*#%@@%@%@%%##***-</text>
+      <text y="280">=++-.:=- .  -      .   .==:=:----</text>
+      <text y="290">-.:  :</text>
+    </g>
     <g class="star" style="animation-delay: 0s">
       <text x="279" y="0">.</text>
       <text x="279" y="10">:</text>
@@ -97,9 +111,9 @@
   <text x="390" y="110"><tspan class="d">.</tspan> <tspan class="k">Kernel</tspan>: <tspan class="d">.......................</tspan> Electrical Engineering</text>
   <text x="390" y="130"><tspan class="d">.</tspan> <tspan class="k">IDE</tspan>: <tspan class="d">.........................................</tspan> VS Code</text>
 
-  <text x="390" y="170"><tspan class="d">.</tspan> <tspan class="k">Languages.Programming</tspan>: <tspan class="d">.......</tspan> JavaScript, Python, C++</text>
-  <text x="390" y="190"><tspan class="d">.</tspan> <tspan class="k">Languages.Web</tspan>: <tspan class="d">.............................</tspan> HTML, CSS</text>
-  <text x="390" y="210"><tspan class="d">.</tspan> <tspan class="k">Languages.Game</tspan>: <tspan class="d">.......................</tspan> GDScript, Luau</text>
+  <text x="390" y="170"><tspan class="d">.</tspan> <tspan class="k">Languages.Programming</tspan>: <tspan class="d">.............</tspan> Java, Python, C++</text>
+  <text x="390" y="190"><tspan class="d">.</tspan> <tspan class="k">Languages.Web</tspan>: <tspan class="d">.................</tspan> HTML, CSS, JavaScript</text>
+  <text x="390" y="210"><tspan class="d">.</tspan> <tspan class="k">Languages.Game</tspan>: <tspan class="d">...................</tspan> GDScript, Luau, C#</text>
 
   <text x="390" y="250"><tspan class="d">.</tspan> <tspan class="k">Hobbies.Software</tspan>: <tspan class="d">.................</tspan> Game dev, Web apps</text>
   <text x="390" y="270"><tspan class="d">.</tspan> <tspan class="k">Hobbies.Hardware</tspan>: <tspan class="d">..</tspan> PCB design, Robotics, 3D printing</text>
